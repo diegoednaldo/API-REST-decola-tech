@@ -9,10 +9,6 @@ import jakarta.validation.constraints.Size;
 
 import java.util.List;
 
-import static java.util.Collections.emptyList;
-import static java.util.Optional.ofNullable;
-import static java.util.stream.Collectors.toList;
-
 public record UserDto(
         Long id,
 
