@@ -2,8 +2,14 @@ package com.github.diego.desafioapi.controllers.dto;
 
 
 import com.github.diego.desafioapi.entities.Feature;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 
-public record FeatureDto(Long id, String icon, String description) {
+public record FeatureDto(
+        Long id,
+        String icon,
+        String description
+) {
 
     public FeatureDto(Feature model) {
         this(model.getId(), model.getIcon(), model.getDescription());
@@ -17,4 +23,3 @@ public record FeatureDto(Long id, String icon, String description) {
         return model;
     }
 }
-
