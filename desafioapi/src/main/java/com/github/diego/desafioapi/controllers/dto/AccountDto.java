@@ -2,6 +2,9 @@ package com.github.diego.desafioapi.controllers.dto;
 
 
 import com.github.diego.desafioapi.entities.Account;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
 
 import java.math.BigDecimal;
 

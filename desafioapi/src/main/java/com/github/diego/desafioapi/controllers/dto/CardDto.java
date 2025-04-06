@@ -1,5 +1,6 @@
 package com.github.diego.desafioapi.controllers.dto;
 
+import com.github.diego.desafioapi.entities.Card;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 
