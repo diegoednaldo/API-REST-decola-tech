@@ -7,7 +7,7 @@
 Este é um projeto de uma API REST para o desafio Publicando Sua API REST na Nuvem Usando Spring Boot 3, Java 17 e Railway da DIO.
 A aplicação abstrai as caracterisitcas de uma tela de aplicativo do banco santander. 
 
-![alt text](image.png)
+![alt text](desafioapi/image.png)
 
 
 
